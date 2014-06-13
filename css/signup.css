@@ -1,0 +1,51 @@
+body{
+  background-color:#555 !important;
+}
+
+#wrapper{
+  position: relative;
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+  border-radius:10px;
+}
+
+#header{
+  background-color:#bca;
+  padding:10px;
+}
+
+#signup_window{
+  background-color:#ddd;
+  padding:20px;
+}
+
+input{
+  /*border:1px solid gray;*/
+  width:200px;
+  padding:5px;
+  margin:5px;
+  font-size:1em;
+  font-weight:bold;
+  border-radius:5px;
+}
+
+#captcha_wrapper{
+  /*border:1px solid gray;*/
+  width:210px;
+  margin:5px;
+  font-size:1em;
+  border-radius:5px;
+  background-color:white;
+  overflow:hidden;
+}
+
+#submit{
+  background-color:#4a3;
+  width:210px;
+}
+
+img{
+  width:100%;
+}

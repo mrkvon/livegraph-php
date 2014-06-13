@@ -1,0 +1,39 @@
+#topbar{
+  height: 34px;
+  width: 100%;
+/*  position:absolute;*/
+  background: #2f2f2f;
+  background: rgba(0,0,0,0.86);
+  line-height: 1;
+  font-size: 13px;
+}
+
+#topbar #topbar-wrapper {
+  /*width: 980px;*/
+  margin: 0 30px;
+  height: 34px;
+  text-align: left;
+  position: relative;
+}
+
+#topbar #topbar-wrapper a:hover {
+  background-color: #444;
+}
+
+#topbar #topbar-wrapper a, #topbar #topbar-wrapper a:visited {
+  color: #e0e0e0;
+  text-decoration: none;
+  display: inline-block;
+  height: 34px;
+  padding: 10px 7px 0 7px;
+  vertical-align: top;
+  font-size: 13px;
+  font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif !important;
+}
+
+#topbar #topbar-links-right{
+  vertical-align: top;
+  position: absolute;
+  right: 0;
+  top: 0;
+}

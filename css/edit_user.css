@@ -1,0 +1,17 @@
+input/*[type="text"]*/, textarea, button{
+  border:1px solid black;
+  margin:5px;
+  padding:3px;
+}
+
+tr td:first-child{
+    width:1%;
+    white-space:nowrap;
+    vertical-align:center;
+    padding:3px;
+}
+
+a.button-link{
+  text-decoration:none;
+  color:default;
+}

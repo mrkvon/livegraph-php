@@ -1,0 +1,199 @@
+.background{
+  fill:#eee;
+}
+
+.view_graph
+{
+  width:100%;
+  height:100%;
+  viewBox:0 0 100 50;
+  position:absolute;
+  top:0;
+  left:0;
+/*  z-index:1;*/
+}
+
+#graph_wrapper{
+  position:absolute;
+  width:100%;
+  height:100%;
+}
+
+.view_graph_tools{
+  width:50%;
+  height:100%;
+  viewBox:0 0 100 50;
+  position:absolute;
+  top:0;
+  left:0;
+/*  z-index:10;*/
+  pointer-events:none;
+}
+
+.view_graph_tools g{
+  pointer-events:visible;
+}
+
+.view_label_container{
+  position:absolute;
+  top:0;
+  left:0;
+/*  z-index:3;*/
+}
+
+.view_label_container>div{
+  position:absolute;
+}
+
+.view_all_text_container{
+  pointer-events:none;
+  position:absolute;
+  top:0;
+  left:0;
+}
+
+.view_node>circle{
+  fill:#ECECEA;
+  stroke-width:3px;
+  stroke:#558C89;
+}
+
+.view_node_prototype>circle{
+  fill:#ECECEA;
+  stroke-width:1px;
+  stroke:#74AFAD;
+}
+
+.view_node>.tools_hidden{
+  visibility:hidden;
+}
+
+.view_node>.tools_visible{
+  visibility:visible;
+}
+
+.view_node .tools_circle{
+  opacity:0;
+}
+
+.view_node .add_element_button{
+  fill:yellow;
+  stroke:black;
+  stroke-width:1px;
+}
+
+.view_link>line{
+  stroke-width:2px;
+  stroke:#558C89;
+  opacity:0.5;
+}
+
+
+.label_active{
+  background-color:white;
+  pointer-events:visible;
+  border: 1px solid black;
+/*  z-index:4;*/
+}
+
+.label_active p{
+  margin-bottom:1em;
+}
+
+.view_label{
+}
+
+/*.view_label .label_tools{
+  visibility:hidden;
+}*/
+
+.view_label .label_hide_seek{
+  visibility:hidden;
+}
+
+.label_active .label_hide_seek{
+  visibility:visible;
+}
+
+.label_hide_seek{
+  display:table;
+}
+
+.label_hide_seek>div{
+  display:table-row;
+}
+
+.label_hide_seek>div>div{
+  display:table-cell;
+}
+
+.label_data_div{
+  min-width:300px;
+}
+
+.label_rights_hidden>div{
+  display:none;
+}
+
+.label_rights_visible>div{
+  height:100%;
+  display:default;
+  background-color:#ddf;
+}
+
+.label_active button{
+  margin:2px;
+	padding:2px;
+	border-radius:3px;
+	background-color:#ff6;
+}
+
+input[type="button"]{
+  margin:2px;
+}
+
+.label_active .label_edit,.view_protohyperlink_label{
+  background-color:#74AFAD;
+}
+
+.view_hyperlink_label .header span{
+  background-color:#D9853B;
+}
+
+.label_active .label_edit input,.label_active .label_edit textarea, .view_protohyperlink_label input, .view_protohyperlink_label textarea{
+  border:none;
+  max-width:95%;
+  margin:5px;
+}
+
+.label_active .label_link_container{
+  min-height:10px;
+  background-color:#558C89;
+  padding:4px;
+}
+
+.view_hyperlink_label .info .ref{
+  border: 1px solid #558C89;
+}
+
+.label_active .ref{
+  border: 1px solid #558C89;
+}
+
+.label_active ul>li{
+  background-color:white;
+  margin:2px;
+  display:inline;
+  list-style-type:none;
+  border:1px solid gray;
+}
+
+#myMarker{
+  stroke:none;
+  fill:#558C89;
+}
+/*
+#558C89
+#74AFAD
+#D9853B
+#ECECEA

@@ -1,0 +1,44 @@
+{
+    font-family:Arial, Helvetica, sans-serif;
+}
+/*
+channel link, channel language, channel copyright, 
+channel managingEditor, channel webMaster, channel docs, channel lastBuildDate, 
+channel item pubDate{
+    display:none;
+}
+*/
+
+channel {
+  padding:10px;
+}
+
+channel>title {
+    display:block;
+    padding:5px;
+    color:#FFF; 
+    border-bottom:1px solid black;
+    font-weight:bold; 
+    background-color:#4483C7;
+}
+
+channel>description{
+    display:block;
+    margin:5px;
+}
+
+item {
+  display:block;
+  border:3px solid gray;
+  padding:5px;
+  margin:5px;
+}
+
+channel>item>title {
+    display:block;
+    font-weight:bold;
+}
+
+item>* {
+  display:block;
+}
