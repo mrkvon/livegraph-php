@@ -1,0 +1,14 @@
+list of modules in this folder:
+
+Graph
+this folder contains only classes of GraphView. It is core of visualisation. Should contain the whole graph visualisation module.
+
+Search
+**empty** this module shoudl work for searching nodes of concept graph atd... now it is in folder js/Models, Views, Controllers. Should be moved here.
+
+People
+this module should enable users to collaborate.
+TODO: add people to your friends
+create groups of people,
+search for people
+grant privileges to other people.

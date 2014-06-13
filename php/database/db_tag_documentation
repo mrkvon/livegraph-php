@@ -1,0 +1,10 @@
+db_tag_create_tag.php
+this file should accept some json tag:{name:name_of_tag,description:description_of_tag}
+and create a (:Tag{name:...,description:...}) node in graph database. (we have to check that the name is original) (tag name is the key: tag name must be original.)
+
+db_tag_destroy_tag.php: given exact tag name, we destroy tag node. (only special case...)
+db_tag_get_tags_of_node: given node uuid we get node tags from database and return them.
+tag... tag_name:{name:tag_name,description:.....}
+
+db_tag_tag_node.php
+create a link between given tag and given node. (:Tag)-[:TAG {creator:user, date:date_of_creation}]->(:Node)
